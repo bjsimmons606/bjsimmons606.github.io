@@ -1,1 +1,293 @@
-Hello World
+CTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+        <title>Billie Jean Simmons Resume Page</title>
+	        <meta name="viewport" content="width=device-width, initial-scale=1">
+		    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
+		        <!-- resume specific style -->
+			    <style type="text/css">
+			            /* uses font awesome for social icons */
+				    @import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
+				    .page-header{
+				      text-align: center;    
+				      }
+				      /*social buttons*/
+				      .btn-social{
+				        color: white;
+					  opacity:0.9;
+					  }
+					  .btn-social:hover {
+					    color: white;
+					        opacity:1;
+						}
+						.btn-facebook {
+						background-color: #3b5998;
+						opacity:0.9;
+						}
+						.btn-twitter {
+						background-color: #00aced;
+						opacity:0.9;
+						}
+						.btn-linkedin {
+						background-color:#0e76a8;
+						opacity:0.9;
+						}
+						.btn-github{
+						  background-color:#000000;
+						    opacity:0.9;
+						    }
+						    .btn-google {
+						      background-color: #c32f10;
+						        opacity: 0.9;
+							}
+							.btn-stackoverflow{
+							  background-color: #D38B28;
+							    opacity: 0.9;
+							    }
+							    /* resume stuff */
+							    .bs-callout {
+							        -moz-border-bottom-colors: none;
+								    -moz-border-left-colors: none;
+								        -moz-border-right-colors: none;
+									    -moz-border-top-colors: none;
+									        border-color: #eee;
+										    border-image: none;
+										        border-radius: 3px;
+											    border-style: solid;
+											        border-width: 1px 1px 1px 5px;
+												    margin-bottom: 5px;
+												        padding: 20px;
+													}
+													.bs-callout:last-child {
+													    margin-bottom: 0px;
+													    }
+													    .bs-callout h4 {
+													        margin-bottom: 10px;
+														    margin-top: 0;
+														    }
+														    .bs-callout-danger {
+														        border-left-color: #d9534f;
+															}
+															.bs-callout-danger h4{
+															    color: #d9534f;
+															    }
+															    .resume .list-group-item:first-child, .resume .list-group-item:last-child{
+															      border-radius:0;
+															      }
+															      /*makes an anchor inactive(not clickable)*/
+															      .inactive-link {
+															         pointer-events: none;
+																    cursor: default;
+																    }
+																    .resume-heading .social-btns{
+																      margin-top:15px;
+																      }
+																      .resume-heading .social-btns i.fa{
+																        margin-left:-5px;
+																	}
+																	@media (max-width: 992px) {
+																	  .resume-heading .social-btn-holder{
+																	      padding:5px;
+																	        }
+																		}
+																		/* skill meter in resume. copy pasted from http://bootsnipp.com/snippets/featured/progress-bar-meter */
+																		.progress-bar {
+																		    text-align: left;
+																		    	white-space: nowrap;
+																				white-space: nowrap;
+																					overflow: hidden;
+																						text-overflow: ellipsis;
+																							cursor: pointer;
+																							}
+																							.progress-bar > .progress-type {
+																								padding-left: 10px;
+																								}
+																								.progress-meter {
+																									min-height: 15px;
+																										border-bottom: 2px solid rgb(160, 160, 160);
+																										  margin-bottom: 15px;
+																										  }
+																										  .progress-meter > .meter {
+																										  	position: relative;
+																												float: left;
+																													min-height: 15px;
+																														border-width: 0px;
+																															border-style: solid;
+																																border-color: rgb(160, 160, 160);
+																																}
+																																.progress-meter > .meter-left {
+																																	border-left-width: 2px;
+																																	}
+																																	.progress-meter > .meter-right {
+																																		float: right;
+																																			border-right-width: 2px;
+																																			}
+																																			.progress-meter > .meter-right:last-child {
+																																				border-left-width: 2px;
+																																				}
+																																				.progress-meter > .meter > .meter-text {
+																																					position: absolute;
+																																						display: inline-block;
+																																							bottom: -20px;
+																																								width: 100%;
+																																									font-weight: 700;
+																																										font-size: 0.85em;
+																																											color: rgb(160, 160, 160);
+																																												text-align: left;
+																																												}
+																																												.progress-meter > .meter.meter-right > .meter-text {
+																																													text-align: right;
+																																													}
+																																													    </style>
+																																													        <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+																																														    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+																																														    </head>
+
+																																														    <div class="resume">
+																																														        <header class="page-header">
+																																															    <h1 class="page-title">Billie Jean Simmons</h1>
+																																															        <small> <i class="fa fa-clock-o"></i> Last Updated on: <time>Monday, September 19, 2016</time></small>
+																																																  </header>
+																																																  <div class="row">
+																																																    <div class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2 col-lg-8">
+																																																        <div class="panel panel-default">
+																																																	      <div class="panel-heading resume-heading">
+																																																	              <div class="row">
+																																																		                <div class="col-lg-12">
+																																																				            <div class="col-xs-12 col-sm-4">
+																																																					                  <figure>
+																																																							                  <img class="img-circle img-responsive" alt="" src="">
+																																																									                </figure>
+																																																											              
+																																																												                    <div class="row">
+																																																														                    <div class="col-xs-12 social-btns">
+																																																																                      
+																																																																		                                            
+																																																																							                        <div class="col-xs-3 col-md-1 col-lg-1 social-btn-holder">
+																																																																										                      <a href="https://www.facebook.com/jilliebeansimm" class="btn btn-social btn-block btn-facebook">
+																																																																												                              <i class="fa fa-facebook"></i> </a>
+																																																																															                          </div>
+																																																																																		                    
+																																																																																				                        <div class="col-xs-3 col-md-1 col-lg-1 social-btn-holder">
+																																																																																							                      <a href="https://twitter.com/RoxiGrl" class="btn btn-social btn-block btn-twitter">
+																																																																																									                              <i class="fa fa-twitter"></i> </a>
+																																																																																												                          </div>
+																																																																																															                    
+																																																																																																	                                          
+																																																																																																						                      <div class="col-xs-3 col-md-1 col-lg-1 social-btn-holder">
+																																																																																																								                            <a href="https://github.com/bjsimmons606" class="btn btn-social btn-block btn-github">
+																																																																																																											                            <i class="fa fa-github"></i> </a>
+																																																																																																														                        </div>
+																																																																																																																	                  
+																																																																																																																			                                            
+																																																																																																																								                        </div>
+																																																																																																																											                  
+																																																																																																																													                  </div>
+																																																																																																																															                </div>
+																																																																																																																																	              
+																																																																																																																																		                  </div>
+
+																																																																																																																																				              <div class="col-xs-12 col-sm-8">
+																																																																																																																																					                    <ul class="list-group">
+																																																																																																																																							                    <li class="list-group-item">Billie Jean Simmons</li>
+																																																																																																																																									                    <li class="list-group-item"><i class="fa fa-phone"></i> 252-619-3800 </li>
+																																																																																																																																											                    <li class="list-group-item"><i class="fa fa-envelope"></i> bjsimmons606@students.ecsu.edu</li>
+																																																																																																																																													                  </ul>
+																																																																																																																																															              </div>
+																																																																																																																																																                </div>
+																																																																																																																																																		        </div>
+																																																																																																																																																			      </div>
+																																																																																																																																																			            <div class="bs-callout bs-callout-danger">
+																																																																																																																																																				            <h4>Summary</h4>
+																																																																																																																																																					            <p>
+																																																																																																																																																						             Current Undergraduate student at Elizabeth City State University, Elizabeth City, NC majoring in Computer Science.  
+																																																																																																																																																							             </p>
+																																																																																																																																																								             <p>
+																																																																																																																																																									              I am working to become an Instructor in the field of Computer Science.  I am also interested in building educational applications and programs that will help the learning process of many different subjects.  
+
+
+																																																																																																																																																										              </p>
+																																																																																																																																																											            </div>
+																																																																																																																																																												          <div class="bs-callout bs-callout-danger">
+																																																																																																																																																													          <h4>Research Interests</h4>
+																																																																																																																																																														          <p>
+																																																																																																																																																															            Software Engineering, Machine Learning, Image 			    Processing, Cloud Computing, Data Science, Mobile Design & Development, Evolutionary Algorithms.
+																																																																																																																																																																            </p>
+																																																																																																																																																																	          </div>
+
+																																																																																																																																																																		        <div class="bs-callout bs-callout-danger">
+																																																																																																																																																																			        <h4>Key Expertise</h4>
+																																																																																																																																																																				        <ul class="list-group">
+																																																																																																																																																																					          <li class="list-group-item">Application Development
+																																																																																																																																																																						   </li>
+																																																																																																																																																																						             
+																																																																																																																																																																							               <li class="list-group-item">Database Management
+																																																																																																																																																																								       </li>
+																																																																																																																																																																								                 <li class="list-group-item">Programming Languages
+																																																																																																																																																																										 </li>
+																																																																																																																																																																										           <li class="list-group-item">Software Design & Development
+																																																																																																																																																																											   </li>
+																																																																																																																																																																											   <li class="list-group-item">Software Application Consulting
+																																																																																																																																																																											   </li>
+																																																																																																																																																																											   <li class="list-group-item">Website Development
+																																																																																																																																																																											   </li>
+
+
+
+
+																																																																																																																																																																											           </ul>
+																																																																																																																																																																												         </div>
+																																																																																																																																																																													       <div class="bs-callout bs-callout-danger">
+																																																																																																																																																																													               <h4>Language and Platform Skills</h4>
+																																																																																																																																																																														       <ul class="list-group">
+																																																																																																																																																																														                 
+																																																																																																																																																																																 <li class="list-group-item">C++, JAVA, VB.NET</li>
+																																																																																																																																																																																 <li class="list-group-item">Perl, PHP, MySQL</li>
+																																																																																																																																																																																 <li class="list-group-item">Assembly Code/Language 
+																																																																																																																																																																																 </li>
+																																																																																																																																																																																 <li class="list-group-item">Windows Family OS(NT, 95, 98, 2000, XP, 7, 8, 10) </li>
+																																																																																																																																																																																 <li class="list-group-item">UNIX OS</li>
+																																																																																																																																																																																 <li class="list-group-item">Apple OS</li>
+
+
+
+
+
+																																																																																																																																																																																         
+
+																																																																																																																																																																																	       </div>
+																																																																																																																																																																																	             <div class="bs-callout bs-callout-danger">
+																																																																																																																																																																																		             <h4>Education</h4>
+																																																																																																																																																																																			             <table class="table table-striped table-responsive ">
+																																																																																																																																																																																				               <thead>
+																																																																																																																																																																																					                   <tr><th>Degree</th>
+																																																																																																																																																																																							               <th>Graduation Year</th>
+																																																																																																																																																																																								                   <th>CGPA</th>
+																																																																																																																																																																																										             </tr></thead>
+																																																																																																																																																																																											               <tbody>
+																																																																																																																																																																																												                   <tr>
+																																																																																																																																																																																														                 <td>BS in Computer Science</td>
+																																																																																																																																																																																																               <td>2018</td>
+																																																																																																																																																																																																	                     <td> 4.00 </td>
+																																																																																																																																																																																																			                 </tr>
+																																																																																																																																																																																																					             <tr>
+																																																																																																																																																																																																						                   <td>AAS in Applied Science in Computer Programming</td>
+																																																																																																																																																																																																								                 <td>2010</td>
+																																																																																																																																																																																																										               <td> 3.46 </td>
+																																																																																																																																																																																																											                   </tr>
+																																																																																																																																																																																																													             </tbody>
+																																																																																																																																																																																																														             </table>
+																																																																																																																																																																																																															           </div>
+																																																																																																																																																																																																																       </div>
+
+																																																																																																																																																																																																																         </div>
+																																																																																																																																																																																																																	 </div>
+																																																																																																																																																																																																																	     
+																																																																																																																																																																																																																	     </div>
+
+																																																																																																																																																																																																																	     </div>
+
+																																																																																																																																																																																																																	     </body>
+																																																																																																																																																																																																																	     </html> 
+
